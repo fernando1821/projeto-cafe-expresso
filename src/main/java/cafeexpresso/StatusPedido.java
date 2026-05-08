@@ -1,3 +1,4 @@
+package cafeexpresso;
 public enum StatusPedido {
     PENDENTE,
     PAGO,

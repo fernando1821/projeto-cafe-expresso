@@ -1,3 +1,4 @@
+package cafeexpresso;
 public class Produto {
     private String nome;
     private double precoUnitario;
