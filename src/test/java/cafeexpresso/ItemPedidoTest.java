@@ -1,7 +1,7 @@
 package cafeexpresso;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class ItemPedidoTest {
 
@@ -14,5 +14,7 @@ public class ItemPedidoTest {
         assertEquals(15.00, item.calcularSubtotal());
         assertEquals("Café Expresso", item.getProduto().getNome());
         assertEquals(3, item.getQuantidade());
+        
     }
+    
 }
